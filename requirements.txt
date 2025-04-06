@@ -1,0 +1,10 @@
+google-genai
+crewai
+crewai[tools]
+tavily-python 
+
+pydantic-settings
+
+redis 
+
+loguru
