@@ -1,4 +1,4 @@
-# market-research-agent
+# Market Research Agent
 Multi-Agent architecture system that generates relevant AI and Generative AI (GenAI) use cases for a given Company or Industry.
 
 ## Project Pipeline and workflow  
