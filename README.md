@@ -55,7 +55,6 @@ The core idea is to built a sequential process, where a ouput of one agent goes 
                     *   [LSTM Predictive Maintenance Code](URL_KAGGLE_2) on Kaggle
                     *   [Predictive Maintenance Dataset Ai4i 2020](URL_KAGGLE_3) on Kaggle
                     *   [ML Predictive Maintenance Repo](URL_GITHUB_1) on GitHub
-                                          ```
-                        - Output: A single, well-formatted Markdown file containing the final proposal.
                     ```
+    - Output: A single, well-formatted Markdown file containing the final proposal.
 
