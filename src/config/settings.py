@@ -6,7 +6,7 @@ from pydantic_settings import BaseSettings
 load_dotenv()
 
 class Settings(BaseSettings):
-    LLM_MODEL: str = "gemini-2.0-flash"
+    LLM_MODEL: str = "gemini/gemini-2.0-flash-lite"
     GEMINI_API_KEY: str = os.getenv('GEMINI_API_KEY')
     TAVILY_API_KEY: str = os.getenv('TAVILY_API_KEY')
 

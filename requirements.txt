@@ -2,9 +2,11 @@ google-genai
 crewai
 crewai[tools]
 tavily-python 
+langchain-google-genai
 
 pydantic-settings
 
 redis 
 
 loguru
+streamlit
