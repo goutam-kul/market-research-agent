@@ -26,7 +26,7 @@ The core idea is to built a sequential process, where a ouput of one agent goes 
            - Reference/Inspiration: (e.g., "Source: Analysis of industry best practices", "Source: Competitor X implementation news article [URL]", "Source: Deloitte AI Trends Report        
              [URL/Name]")
     - Output: A structured list of potential use cases with all the fields mentioned above. This output is passed to Agent 3.        
-4. **Agent 3**: Resource  asset collector
+4. **Agent 3: Resource  asset collector**
   - Goal: Find relevant datasets and code resources for the generated use cases, presenting links like the CSV example.
   - Action:
       - Takes the list of usecases from Agent 2:
@@ -35,7 +35,7 @@ The core idea is to built a sequential process, where a ouput of one agent goes 
           - Uses a search tool (Tavily, potentially prompted to focus on these sites) to find relevant links.
           - Collects multiple relevant URLs per use case where possible.
   - Output: An updated list of use cases, where each use case now also includes a Resource Links section containing the raw URLs found, potentially separated by newlines (similar to the CSV example's multiline cell content).
-5. **Agent 4**: Final Proposal Synthesizer:
+5. **Agent 4: Final Proposal Synthesizer:**
     - Goal: Consolidate, prioritize, and format the final output into a professional report, combining the detailed use cases with clickable resource links.
     - Action:
         - Takes the enriched use case list from Agent 3 and the context summary from Agent 1.
