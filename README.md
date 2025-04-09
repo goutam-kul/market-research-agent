@@ -1,6 +1,20 @@
 # Market Research Agent
 Multi-Agent architecture system that generates relevant AI and Generative AI (GenAI) use cases for a given Company or Industry.
 
+
+## How to Setup 
+- configure a `.env` file with (as shown in .env.example file)
+```
+GEMINI_API_KEY=YOUR_API_KEY
+TAVILY_API_KEY=YOUR_API_KEY
+REDIS_PASSWORD=YOUR_REDIS_PASSWORD
+```
+- Install the dependencies:
+```pip install -r requirements.txt```
+- Run Streamlit server:
+```streamlit run src/app.py```
+
+
 ## Project Pipeline and workflow  
 The core idea is to built a sequential process, where a ouput of one agent goes to the next agent culminating in a comprehensive proposal. 
 
