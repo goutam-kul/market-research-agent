@@ -16,6 +16,7 @@ REDIS_PASSWORD=YOUR_REDIS_PASSWORD
 
 
 ## Project Pipeline and workflow  
+![Image](https://github.com/user-attachments/assets/59fa2e28-6654-47cd-b8b4-78d953a22205)
 The core idea is to built a sequential process, where a ouput of one agent goes to the next agent culminating in a comprehensive proposal. 
 
 1. **Input**: The process starts with the user providing a target (e.g., "Tesla", "Automotive Industry", "Healthcare Insurance Providers").
