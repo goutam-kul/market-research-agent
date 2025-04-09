@@ -52,6 +52,14 @@ class CachedTavilySearchTool(BaseTool):
         max_results: int = 5
     ) -> Dict:
         """Execute tavily search with Redis caching"""
+
+        # Validate search depth 
+        valid_search_depth = search_depth
+        if valid_search_depth not in ["basic", "advanced"]:
+            logger.warning(f"⚠️ Warning: Invalid search_depth '{search_depth}' received. Defaulting to 'advanced'.")
+            valid_search_depth = "advanced"
+
+        # Start search execution 
         logger.info(f"\n🔎 Executing Tavily Search (cached): '{query}'")
         cache_key = f"tavily:{search_depth}:{max_results}:{query}"
 
