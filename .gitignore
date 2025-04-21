@@ -177,6 +177,6 @@ cython_debug/
 # 
 triage.py
 examples
-src/crew
-app.py
+# src/crew
+# app.py
 proposal_*
